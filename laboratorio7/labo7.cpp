@@ -11,7 +11,7 @@ int main() {
     int opcion;
     int numeros[200];  
     int n = 0;
-
+//Apartado extra, laboratorio 3 si se puede. :)//
     do {
         cout << "\n==== MENU ====\n";
         cout << "1. Clasificar numeros (pares/impares)\n";
@@ -129,4 +129,5 @@ void mostrarArchivo(const char nombre[]) {
 
     cout << endl;
     archivo.close();
+
 }
